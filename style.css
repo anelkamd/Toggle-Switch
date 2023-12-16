@@ -40,8 +40,8 @@ body::after{
 
 .content {
     position: relative;
-    width: calc(var(--sz) / 2 );
-    height: calc(var(--sz) / 2);
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ label[for=btn]{
 }
 span {
     color: #03a9f4;
-    font-size: 40px;
+    font-size: 80%;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -88,7 +88,7 @@ span {
     radial-gradient(circle at 40% 50%, 
     #fff0 calc(var(--sz) / 0.95),
     var(--lg) calc(var(--sz) / 0.75)),
-    linear-gradient(180deg, #283349, #17212f);
+    linear-gradient(40deg, #283349, #17212f);
     border-radius: var(--sz);
     cursor: pointer;
     z-index: 1;
