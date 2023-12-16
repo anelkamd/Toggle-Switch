@@ -67,10 +67,14 @@ label[for=btn]{
     calc(var(--sz) / 50) #15182fcc;
 }
 span {
-    color: #03a9f4;
-    font-size: 80%;
+    color: whitesmoke;
+    font-size: 100%;
     font-family: sans-serif;
     font-weight: bold;
+}
+span i {
+    color: whitesmoke;
+    font-size: 50px;
 }
 
 .thumb{
